@@ -3,10 +3,39 @@
     padding: 0;
 }
 
-#intro  {
-    background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg);
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 10px 130px;
+}
+
+#login {
+    margin-right: 400px;
+    margin-top: 15px;
+} 
+
+/* #intro  { */
+    /* background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg); */
     /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* height: 52vh; */
+/* } */
+
+#intro {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg);
+    background-size: 100vw;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
+    background-position: center center;
+    height: 52vh;
+}
+
+
+
+
+#body {
+    display: flex;
+    flex-wrap: wrap;
 }
