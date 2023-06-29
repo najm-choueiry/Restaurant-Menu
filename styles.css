@@ -1,0 +1,12 @@
+* {
+    margin : 0 ;
+    padding: 0;
+}
+
+#intro  {
+    background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg);
+    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
