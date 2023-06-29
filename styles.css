@@ -8,21 +8,19 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 10px 0px 10px 130px;
+    padding: 10px 0px 10px 160px;
+}
+
+header img {
+    width: 130px;
+    height: 50px;
 }
 
 #login {
-    margin-right: 400px;
+    margin-right: 300px;
     margin-top: 15px;
 } 
 
-/* #intro  { */
-    /* background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
-    /* height: 52vh; */
-/* } */
 
 #intro {
     background-image: url(https://s3.eu-central-1.amazonaws.com/act.omegapos.com/OmegaCloud/1000/omenu/mir_1.jpg);
