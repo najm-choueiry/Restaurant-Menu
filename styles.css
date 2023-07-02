@@ -35,6 +35,18 @@ header img {
     margin-right: 640px;
 } */
 
+#buttons{
+    padding-top: 15.35%;
+    padding-left: 23%;
+
+}
+
+#buttons button {
+    border-radius: 4px;
+    font-size: 17px;
+    padding: 20px 10px;
+}
+
 #options {
     border-radius: 4px;
     border: 1px solid white;
@@ -65,6 +77,10 @@ header img {
 
 #titles {
     cursor: pointer;
+}
+
+#titles p {
+    padding-bottom: 10px;
 }
 
 #titles > p:hover {
@@ -139,13 +155,14 @@ header img {
 
 #all-items {
     margin-left: 350px;
-    margin-top: -170px;
+    margin-top: -240px;
 }
 
 
 footer {
     margin-top: 8rem;
     background-color: #343a40;
+    padding-top: 50px;
 }
 
 footer p {
@@ -154,6 +171,12 @@ footer p {
 
 .info {
     padding: 30px 0 20px 200px;
+}
+
+.info img {
+    width: 1%;
+    height:1%;
+    padding-right: 2px;
 }
 
 #miramin {
