@@ -63,6 +63,13 @@ header img {
     border: 1px solid white;
 }
 
+#titles {
+    cursor: pointer;
+}
+
+#titles > p:hover {
+    text-decoration: underline;
+}
 
 .menu-items{
     margin-top: 2%;
@@ -71,6 +78,20 @@ header img {
     border: 1px solid white;
     background-color: white;
 }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+
+    border: 3px solid red;
+    color: red;
+    width: 28%;
+    margin-right: 300%;
+  } 
 
 #restaurant {
     margin-left: 150px;
@@ -107,6 +128,8 @@ header img {
     padding-left: 15px;
     font-size: 0.8rem;
     padding-bottom: 1px;
+    font-size: 0.94rem;
+    width: 61%;
 }
 
 .price{
@@ -117,4 +140,18 @@ header img {
 #all-items {
     margin-left: 350px;
     margin-top: -170px;
+}
+
+
+footer {
+    margin-top: 8rem;
+    background-color: #343a40;
+}
+
+footer p {
+    color: white
+}
+
+.info {
+    padding: 30px 0 20px 200px;
 }
