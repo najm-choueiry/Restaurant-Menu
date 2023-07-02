@@ -83,6 +83,33 @@ header img {
     padding-right: 20px;
 }
 
+#items {
+    margin-top:3.5%;
+}
+.red-title {
+    color: red;
+    font-size: 1.5rem;
+    padding-bottom: 3px;
+
+}
+
+.item-within-red {
+    padding-left: 15px;
+    padding-bottom: 3px;
+    padding-top: 15px;
+}
+
+.description-within-red {
+    padding-left: 15px;
+    font-size: 0.8rem;
+    padding-bottom: 1px;
+}
+
+.price{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
 #all-items {
     margin-left: 350px;
     margin-top: -170px;
