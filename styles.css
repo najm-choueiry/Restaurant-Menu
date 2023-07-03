@@ -6,20 +6,19 @@
 header {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     padding: 10px 0px 10px 160px;
 }
 
-header img {
+#logo {
     width: 130px;
     height: 50px;
 }
 
-#login {
-    margin-right: 300px;
-    margin-top: 15px;
-} 
+
+#lists p {
+    color: white;
+    cursor: pointer;
+}
 
 
 #intro {
@@ -35,8 +34,29 @@ header img {
     margin-right: 640px;
 } */
 
+#lists { 
+    position: absolute;
+    right: 330px;
+    top: 25px;
+}
+
+#lists p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#lists img {
+    width: 14%;
+    height: 14%;
+    padding-left: 20px;
+}
+
+.display {
+    display: inline-block
+}
+
 #buttons{
-    padding-top: 15.35%;
+    padding-top: 16.55%;
     padding-left: 23%;
 
 }
